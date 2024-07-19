@@ -9,3 +9,5 @@ ENV POSTGRES_PASSWORD=kQCGL9GROmUKv9vD
 
 # Устанавливаем переменную окружения POSTGRES_DB для определения имени базы данных по умолчанию
 ENV POSTGRES_DB=send_logs_db
+
+ENV PGPORT=5432
