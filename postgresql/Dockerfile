@@ -5,7 +5,7 @@ FROM postgres:latest
 ENV POSTGRES_USER=admin
 
 # Устанавливаем переменную окружения POSTGRES_PASSWORD для определения пароля пользователя PostgreSQL
-ENV POSTGRES_PASSWORD=kQCGL9GROmUKv9vDa
+ENV POSTGRES_PASSWORD=kQCGL9GROmUKv9
 
 # Устанавливаем переменную окружения POSTGRES_DB для определения имени базы данных по умолчанию
 ENV POSTGRES_DB=send_logs_db
