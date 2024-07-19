@@ -22,6 +22,6 @@ services:
       - ./data:/var/lib/postgresql/data
     environment:
       POSTGRES_USER: admin
-      POSTGRES_PASSWORD: kQCGL9GROmUKv9vD
+      POSTGRES_PASSWORD: kQCGL9GROmUKv9vDa
       POSTGRES_DB: send_logs_db
       PGPORT: 5433
