@@ -12,9 +12,9 @@ COPY requirements.txt /code/
 RUN pip install --no-cache-dir -r requirements.txt
 
 # Copy the current directory contents into the container at /code/
-COPY telegram_zakupki_handler /code/
-COPY telegram_zakupki_handler/manage.py /code/
-COPY telegram_zakupki_handler/wait-for-it.sh /code/
+COPY save_logs /code/
+COPY save_logs/manage.py /code/
+COPY save_logs/wait-for-it.sh /code/
 
 # Ensure wait-for-it.sh is executable
 RUN chmod +x /code/wait-for-it.sh
