@@ -27,7 +27,7 @@ for log_entry in lines:
         if search_query is None:
             search_query = query_params.get('search', [None])[0]
 
-        t = requests.post("http://127.0.0.1:8000/add_log/", json={
+        t = requests.post("http://84.201.162.198:8001/add_log/", json={
             "search_query": search_query,
             "search_date": date,
             "search_ip": ip_address,

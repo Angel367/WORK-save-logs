@@ -20,4 +20,4 @@ COPY save_logs/wait-for-it.sh /code/
 RUN chmod +x /code/wait-for-it.sh
 
 # Specify the command to run on container start
-CMD ["/code/wait-for-it.sh", "pgdb_save_logs:5433", "--", "sh", "-c", "python manage.py makemigrations && python manage.py migrate && python manage.py runserver 0.0.0.0:8000"]
+CMD ["/code/wait-for-it.sh", "pgdb_save_logs:5433", "--", "sh", "-c", "python manage.py makemigrations && python manage.py migrate && python manage.py runserver 0.0.0.0:8001"]
