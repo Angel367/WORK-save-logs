@@ -9,7 +9,7 @@ services:
       - "8000:8000"
     restart: always
     depends_on:
-      - pgdb
+      - pgdb_save_logs
 
   pgdb_save_logs:
     build:
