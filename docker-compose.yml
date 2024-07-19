@@ -24,4 +24,4 @@ services:
       POSTGRES_USER: admin
       POSTGRES_PASSWORD: kQCGL9GROmUKv9vD
       POSTGRES_DB: send_logs_db
-      PGPORT: 5432
+      PGPORT: 5433
