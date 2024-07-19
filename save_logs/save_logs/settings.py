@@ -85,7 +85,7 @@ DATABASES = {
         'ENGINE': 'django.db.backends.postgresql',
         'NAME': 'send_logs_db',        # Название базы данных
         'USER': 'admin',             # Имя пользователя PostgreSQL
-        'PASSWORD': 'kQCGL9GROmUKv9vD',         # Пароль пользователя PostgreSQL
+        'PASSWORD': 'kQCGL9GROmUKv9vDa',         # Пароль пользователя PostgreSQL
         'HOST': '84.201.162.198',         # Хост PostgreSQL (если запускается локально)
         'PORT': '5433',              # Порт PostgreSQL
     }
